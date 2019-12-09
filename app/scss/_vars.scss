@@ -1,0 +1,24 @@
+$black: #040405;
+$purple: #62497c;
+
+
+
+@mixin monserat700 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+@mixin monserat400 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+@mixin roboto100 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+@mixin h400 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}

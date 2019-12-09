@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: $black;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 708px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+.container-fluid {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.btn {
+  @include monserat700;
+  font-size: 10px;
+  color: #fff;
+  padding: 16px 25px;
+  background-color: $purple;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all .1s linear;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 45px;
+  @include monserat700;
+  text-align: center;
+  color: $black;
+}
