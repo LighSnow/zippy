@@ -48,6 +48,7 @@ $(function () {
     slidesToScroll: 1,
     arrows: false,
     fade: true,
+    adaptiveHeight: true,
     asNavFor: '.life__slider-nav'
   });
 
