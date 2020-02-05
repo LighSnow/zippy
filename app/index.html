@@ -546,7 +546,11 @@
 
   <section class="contact" id="contact">
     <div class="container-fluid">
-      <div id="map"></div>
+      <div class="contact__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42907.92176680179!2d27.866359615988205!3d47.766998165498684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb673a731f2613%3A0x75ffb7a54ede02d9!2z0JHQtdC70YzRhtGLLCDQnNC-0LvQtNCw0LLQuNGP!5e0!3m2!1sru!2s!4v1580900223775!5m2!1sru!2s"
+          frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
       <form class="contact__form">
         <h2 class="contact__form-title title">
           Contact
@@ -626,25 +630,6 @@
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script>
-    function initMap() {
-      var location = {
-        lat: 40.712776,
-        lng: -74.005974
-      };
-      var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 4,
-        center: location
-      });
-      var marker = new google.maps.Marker({
-        position: location,
-        map: map
-      })
-    }
-  </script>
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDypHxpyxXUw6KisKeZfkC3YbSFSS82XxA&callback=initMap">
-  </script>
   <script src="js/libs.min.js"></script>
   <script src="js/main.js"></script>
 
