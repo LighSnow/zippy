@@ -701,10 +701,16 @@
   }
 
 
-  #map {
+  &__map {
     max-width: 693px;
+    width: 100%;
     height: 662px;
-    background-color: grey;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      background-color: grey;
+    }
   }
 
   &__form {
